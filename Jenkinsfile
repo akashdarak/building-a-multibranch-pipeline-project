@@ -5,6 +5,16 @@ pipeline {
             steps {
                 sh 'echo "Hello world!"'
             }
+        }     
+        stage('Test') {
+            steps {
+                sh 'echo "Hello world!"'
+            }
         }
+        stage('Deploy') {
+            steps {
+                sh 'echo "Hello world!"'
+            }
+        }        
     }
 }
